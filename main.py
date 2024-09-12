@@ -7,7 +7,7 @@ if senha != password:
         tentativa += 1
         senha = input("Informe a senha: ")
         if senha == password:
-            print("Senha correta!!!\nAcesso Autorizado")
+            print("Senha Correta!!!\nAcesso Autorizado")
         elif tentativa == 3:
             print("Senha Incorreta.\nNúmero Máxima de tentativas atingidas.\nEssa conta será bloqueada!!!")
 else:
