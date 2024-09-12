@@ -1,13 +1,11 @@
 tentativa = 1
 password = 'teste'
-print(f"{tentativa}º Tentativa")
-senha = input("Informe a senha: ")
+senha = input(f"{tentativa}º Tentativa - Informe a senha: ")
 if senha != password:
     while tentativa < 3 and senha != password:
         print("Senha Incorreta\ntente Novamente!!!")
         tentativa += 1
-        print(f"{tentativa}º Tentativa")
-        senha = input("Informe a senha: ")
+        senha = input(f"{tentativa}º Tentativa - Informe a senha: ")
         if senha == password:
             print("Senha Correta.\nAcesso Autorizado")
         elif tentativa == 3:
